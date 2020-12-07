@@ -1,0 +1,23 @@
+{
+    "name": "toumoro/tm-csseo-xclass",
+    "type": "typo3-cms-extension",
+    "description": "Xclass for og:image s3 assets",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Toumoro\\TmCsseoXclass\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Toumoro\\TmCsseoXclass\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "tm_csseo_xclass": "self.version",
+        "typo3-ter/tm-csseo-xclass": "self.version"
+    }
+}
