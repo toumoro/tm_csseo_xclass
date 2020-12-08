@@ -11,8 +11,8 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'tm_csseo_xclass',
-    'description' => 'Xclass for og:image s3 assets',
+    'title' => 'AWS S3 adaptataion for cs_seo',
+    'description' => 'This extension is a xclass for og:image AWS S3 assets.',
     'category' => 'plugin',
     'author' => 'Simon Ouellet',
     'author_email' => 'simon.ouellet@toumoro.com',
